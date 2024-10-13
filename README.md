@@ -1,6 +1,10 @@
 # TelebotCafe
 
+# Бот для заказов в кафе-мороженом
 
+## Локальный запуск
+
+Выполните команду `cp settings/.envs/.env.local.template settings/.envs/.env` заполните файл нужными настройками
 
 ## Getting started
 
