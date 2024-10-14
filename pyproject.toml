@@ -1,0 +1,18 @@
+[tool.black]
+line-length = 100
+target-version = ['py312', 'py311']
+skip-string-normalization = true
+[tool.poetry]
+name = "telebotcafe"
+version = "3.12"
+description = "my_project"
+authors = ["lomalo890 <george2066@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
